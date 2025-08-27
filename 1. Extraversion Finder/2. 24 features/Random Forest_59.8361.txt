@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     ExtraversionFinder_24 features
+Instances:    244
+Attributes:   26
+              Filename
+              affect
+              posemo
+              negemo
+              anx
+              anger
+              sad
+              social
+              family
+              friend
+              female
+              male
+              cogproc
+              insight
+              cause
+              discrep
+              tentat
+              certain
+              differ
+              work
+              leisure
+              home
+              money
+              relig
+              death
+              cEXT
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.29 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         146               59.8361 %
+Incorrectly Classified Instances        98               40.1639 %
+Kappa statistic                         -0.015 
+Mean absolute error                      0.4738
+Root mean squared error                  0.4895
+Relative absolute error                 99.5836 %
+Root relative squared error            100.382  %
+Total Number of Instances              244     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.966    0.979    0.608      0.966    0.746      -0.037   0.522     0.634     n
+                 0.021    0.034    0.286      0.021    0.039      -0.037   0.522     0.411     y
+Weighted Avg.    0.598    0.611    0.482      0.598    0.471      -0.037   0.522     0.547     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 144   5 |   a = n
+  93   2 |   b = y

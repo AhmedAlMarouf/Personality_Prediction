@@ -1,0 +1,124 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     LIWC + SN features
+Instances:    244
+Attributes:   101
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 101 cEXT):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.0884    98 BROKERAGE
+ 0.0858    94 NETWORKSIZE
+ 0.0853    95 BETWEENNESS
+ 0.0839   100 TRANSITIVITY
+ 0.0793    99 NBROKERAGE
+ 0.0705    96 NBETWEENNESS
+ 0.0519    97 DENSITY
+ 0         31 posemo
+ 0         32 negemo
+ 0         33 anx
+ 0         30 affect
+ 0         29 quant
+ 0         28 number
+ 0         26 compare
+ 0         35 sad
+ 0         27 interrog
+ 0         34 anger
+ 0         39 female
+ 0         36 social
+ 0         44 discrep
+ 0         45 tentat
+ 0         42 insight
+ 0         43 cause
+ 0         41 cogproc
+ 0         37 family
+ 0         38 friend
+ 0         24 verb
+ 0         40 male
+ 0         25 adj
+ 0         21 adverb
+ 0         23 negate
+ 0          8 Dic
+ 0          9 function
+ 0          6 WPS
+ 0          7 Sixltr
+ 0          5 Tone
+ 0         11 ppron
+ 0          2 Analytic
+ 0          3 Clout
+ 0          4 Authentic
+ 0         10 pronoun
+ 0         12 i
+ 0         22 conj
+ 0         20 auxverb
+ 0         47 differ
+ 0         18 article
+ 0         19 prep
+ 0         17 ipron
+ 0         13 we
+ 0         14 you
+ 0         15 shehe
+ 0         16 they
+ 0         46 certain
+ 0         50 hear
+ 0         48 percept
+ 0         80 nonflu
+ 0         81 filler
+ 0         78 netspeak
+ 0         79 assent
+ 0         77 swear
+ 0         83 Period
+ 0         74 relig
+ 0         75 death
+ 0         76 informal
+ 0         82 AllPunc
+ 0         84 Comma
+ 0         49 see
+ 0         92 Parenth
+ 0         93 OtherP
+ 0         90 Quote
+ 0         91 Apostro
+ 0         89 Dash
+ 0         85 Colon
+ 0         86 SemiC
+ 0         87 QMark
+ 0         88 Exclam
+ 0         73 money
+ 0         72 home
+ 0         71 leisure
+ 0         57 drives
+ 0         58 affiliation
+ 0         55 sexual
+ 0         56 ingest
+ 0         54 health
+ 0         70 work
+ 0         51 feel
+ 0         52 bio
+ 0         53 body
+ 0         59 achieve
+ 0         60 power
+ 0         61 reward
+ 0         68 space
+ 0         69 time
+ 0         62 risk
+ 0         67 motion
+ 0         66 relativ
+ 0         65 focusfuture
+ 0         64 focuspresent
+ 0         63 focuspast
+ 0          1 WC
+
+Selected attributes: 98,94,95,100,99,96,97,31,32,33,30,29,28,26,35,27,34,39,36,44,45,42,43,41,37,38,24,40,25,21,23,8,9,6,7,5,11,2,3,4,10,12,22,20,47,18,19,17,13,14,15,16,46,50,48,80,81,78,79,77,83,74,75,76,82,84,49,92,93,90,91,89,85,86,87,88,73,72,71,57,58,55,56,54,70,51,52,53,59,60,61,68,69,62,67,66,65,64,63,1 : 100
+

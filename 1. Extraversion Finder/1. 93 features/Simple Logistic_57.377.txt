@@ -1,0 +1,141 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     ExtraversionFinder
+Instances:    244
+Attributes:   96
+              Filename
+              Segment
+              WC
+              Analytic
+              Clout
+              Authentic
+              Tone
+              WPS
+              Sixltr
+              Dic
+              function
+              pronoun
+              ppron
+              i
+              we
+              you
+              shehe
+              they
+              ipron
+              article
+              prep
+              auxverb
+              adverb
+              conj
+              negate
+              verb
+              adj
+              compare
+              interrog
+              number
+              quant
+              affect
+              posemo
+              negemo
+              anx
+              anger
+              sad
+              social
+              family
+              friend
+              female
+              male
+              cogproc
+              insight
+              cause
+              discrep
+              tentat
+              certain
+              differ
+              percept
+              see
+              hear
+              feel
+              bio
+              body
+              health
+              sexual
+              ingest
+              drives
+              affiliation
+              achieve
+              power
+              reward
+              risk
+              focuspast
+              focuspresent
+              focusfuture
+              relativ
+              motion
+              space
+              time
+              work
+              leisure
+              home
+              money
+              relig
+              death
+              informal
+              swear
+              netspeak
+              assent
+              nonflu
+              filler
+              AllPunc
+              Period
+              Comma
+              Colon
+              SemiC
+              QMark
+              Exclam
+              Dash
+              Quote
+              Apostro
+              Parenth
+              OtherP
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class n :
+0    + 
+
+Class y :
+0    + 
+
+
+Time taken to build model: 1.91 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         140               57.377  %
+Incorrectly Classified Instances       104               42.623  %
+Kappa statistic                         -0.0391
+Mean absolute error                      0.5004
+Root mean squared error                  0.5222
+Relative absolute error                105.1709 %
+Root relative squared error            107.0871 %
+Total Number of Instances              244     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.893    0.926    0.602      0.893    0.719      -0.056   0.463     0.588     n
+                 0.074    0.107    0.304      0.074    0.119      -0.056   0.463     0.379     y
+Weighted Avg.    0.574    0.607    0.486      0.574    0.485      -0.056   0.463     0.507     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 133  16 |   a = n
+  88   7 |   b = y

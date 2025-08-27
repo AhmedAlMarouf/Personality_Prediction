@@ -1,0 +1,951 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     ExtraversionFinder
+Instances:    244
+Attributes:   96
+              Filename
+              Segment
+              WC
+              Analytic
+              Clout
+              Authentic
+              Tone
+              WPS
+              Sixltr
+              Dic
+              function
+              pronoun
+              ppron
+              i
+              we
+              you
+              shehe
+              they
+              ipron
+              article
+              prep
+              auxverb
+              adverb
+              conj
+              negate
+              verb
+              adj
+              compare
+              interrog
+              number
+              quant
+              affect
+              posemo
+              negemo
+              anx
+              anger
+              sad
+              social
+              family
+              friend
+              female
+              male
+              cogproc
+              insight
+              cause
+              discrep
+              tentat
+              certain
+              differ
+              percept
+              see
+              hear
+              feel
+              bio
+              body
+              health
+              sexual
+              ingest
+              drives
+              affiliation
+              achieve
+              power
+              reward
+              risk
+              focuspast
+              focuspresent
+              focusfuture
+              relativ
+              motion
+              space
+              time
+              work
+              leisure
+              home
+              money
+              relig
+              death
+              informal
+              swear
+              netspeak
+              assent
+              nonflu
+              filler
+              AllPunc
+              Period
+              Comma
+              Colon
+              SemiC
+              QMark
+              Exclam
+              Dash
+              Quote
+              Apostro
+              Parenth
+              OtherP
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                  Class
+Attribute             n        y
+                 (0.61)   (0.39)
+=================================
+Filename
+  u1.txt             2.0      1.0
+  u10.txt            1.0      2.0
+  u100.txt           2.0      1.0
+  u101.txt           1.0      2.0
+  u102.txt           1.0      2.0
+  u103.txt           2.0      1.0
+  u104.txt           1.0      2.0
+  u105.txt           1.0      2.0
+  u106.txt           2.0      1.0
+  u107.txt           1.0      2.0
+  u108.txt           2.0      1.0
+  u109.txt           2.0      1.0
+  u11.txt            2.0      1.0
+  u110.txt           2.0      1.0
+  u111.txt           1.0      2.0
+  u112.txt           2.0      1.0
+  u113.txt           1.0      2.0
+  u114.txt           1.0      2.0
+  u115.txt           1.0      2.0
+  u116.txt           2.0      1.0
+  u117.txt           2.0      1.0
+  u118.txt           1.0      2.0
+  u119.txt           2.0      1.0
+  u120.txt           1.0      2.0
+  u121.txt           1.0      2.0
+  u122.txt           2.0      1.0
+  u123.txt           1.0      2.0
+  u124.txt           1.0      2.0
+  u125.txt           1.0      2.0
+  u126.txt           2.0      1.0
+  u127.txt           1.0      2.0
+  u128.txt           2.0      1.0
+  u129.txt           1.0      2.0
+  u13.txt            2.0      1.0
+  u130.txt           1.0      2.0
+  u131.txt           2.0      1.0
+  u132.txt           1.0      2.0
+  u133.txt           2.0      1.0
+  u134.txt           2.0      1.0
+  u135.txt           2.0      1.0
+  u136.txt           2.0      1.0
+  u137.txt           2.0      1.0
+  u138.txt           2.0      1.0
+  u139.txt           2.0      1.0
+  u14.txt            2.0      1.0
+  u140.txt           2.0      1.0
+  u141.txt           2.0      1.0
+  u142.txt           1.0      2.0
+  u143.txt           2.0      1.0
+  u144.txt           2.0      1.0
+  u145.txt           2.0      1.0
+  u146.txt           2.0      1.0
+  u147.txt           2.0      1.0
+  u148.txt           1.0      2.0
+  u149.txt           2.0      1.0
+  u15.txt            1.0      2.0
+  u150.txt           1.0      2.0
+  u151.txt           2.0      1.0
+  u152.txt           1.0      2.0
+  u153.txt           2.0      1.0
+  u154.txt           2.0      1.0
+  u155.txt           2.0      1.0
+  u156.txt           2.0      1.0
+  u157.txt           2.0      1.0
+  u158.txt           2.0      1.0
+  u159.txt           2.0      1.0
+  u16.txt            2.0      1.0
+  u160.txt           2.0      1.0
+  u161.txt           1.0      2.0
+  u162.txt           2.0      1.0
+  u163.txt           2.0      1.0
+  u164.txt           2.0      1.0
+  u165.txt           1.0      2.0
+  u166.txt           1.0      2.0
+  u167.txt           2.0      1.0
+  u168.txt           1.0      2.0
+  u169.txt           2.0      1.0
+  u17.txt            2.0      1.0
+  u170.txt           1.0      2.0
+  u171.txt           1.0      2.0
+  u172.txt           1.0      2.0
+  u173.txt           2.0      1.0
+  u174.txt           2.0      1.0
+  u175.txt           2.0      1.0
+  u176.txt           2.0      1.0
+  u177.txt           2.0      1.0
+  u178.txt           2.0      1.0
+  u179.txt           2.0      1.0
+  u18.txt            1.0      2.0
+  u180.txt           1.0      2.0
+  u181.txt           2.0      1.0
+  u182.txt           2.0      1.0
+  u183.txt           2.0      1.0
+  u184.txt           2.0      1.0
+  u185.txt           1.0      2.0
+  u186.txt           1.0      2.0
+  u187.txt           2.0      1.0
+  u188.txt           2.0      1.0
+  u189.txt           2.0      1.0
+  u19.txt            1.0      2.0
+  u190.txt           2.0      1.0
+  u191.txt           1.0      2.0
+  u192.txt           2.0      1.0
+  u193.txt           2.0      1.0
+  u194.txt           2.0      1.0
+  u195.txt           2.0      1.0
+  u196.txt           1.0      2.0
+  u197.txt           2.0      1.0
+  u198.txt           1.0      2.0
+  u199.txt           1.0      2.0
+  u2.txt             2.0      1.0
+  u20.txt            1.0      2.0
+  u200.txt           1.0      2.0
+  u201.txt           1.0      2.0
+  u202.txt           2.0      1.0
+  u203.txt           2.0      1.0
+  u204.txt           2.0      1.0
+  u205.txt           1.0      2.0
+  u206.txt           2.0      1.0
+  u207.txt           1.0      2.0
+  u208.txt           2.0      1.0
+  u209.txt           1.0      2.0
+  u21.txt            2.0      1.0
+  u210.txt           2.0      1.0
+  u211.txt           2.0      1.0
+  u212.txt           1.0      2.0
+  u213.txt           2.0      1.0
+  u214.txt           2.0      1.0
+  u215.txt           1.0      2.0
+  u216.txt           2.0      1.0
+  u217.txt           2.0      1.0
+  u218.txt           2.0      1.0
+  u219.txt           2.0      1.0
+  u22.txt            2.0      1.0
+  u220.txt           2.0      1.0
+  u221.txt           2.0      1.0
+  u222.txt           1.0      2.0
+  u223.txt           2.0      1.0
+  u224.txt           1.0      2.0
+  u225.txt           2.0      1.0
+  u226.txt           2.0      1.0
+  u227.txt           2.0      1.0
+  u228.txt           2.0      1.0
+  u229.txt           1.0      2.0
+  u23.txt            1.0      2.0
+  u230.txt           2.0      1.0
+  u231.txt           2.0      1.0
+  u232.txt           2.0      1.0
+  u233.txt           1.0      2.0
+  u234.txt           2.0      1.0
+  u235.txt           1.0      2.0
+  u236.txt           2.0      1.0
+  u237.txt           2.0      1.0
+  u238.txt           1.0      2.0
+  u239.txt           2.0      1.0
+  u24.txt            2.0      1.0
+  u240.txt           2.0      1.0
+  u241.txt           1.0      2.0
+  u242.txt           2.0      1.0
+  u243.txt           1.0      2.0
+  u244.txt           2.0      1.0
+  u245.txt           1.0      2.0
+  u246.txt           1.0      2.0
+  u25.txt            2.0      1.0
+  u26.txt            2.0      1.0
+  u27.txt            2.0      1.0
+  u28.txt            1.0      2.0
+  u29.txt            1.0      2.0
+  u3.txt             2.0      1.0
+  u30.txt            2.0      1.0
+  u31.txt            1.0      2.0
+  u32.txt            2.0      1.0
+  u33.txt            2.0      1.0
+  u34.txt            1.0      2.0
+  u35.txt            2.0      1.0
+  u36.txt            2.0      1.0
+  u37.txt            1.0      2.0
+  u38.txt            1.0      2.0
+  u39.txt            1.0      2.0
+  u4.txt             2.0      1.0
+  u40.txt            1.0      2.0
+  u41.txt            1.0      2.0
+  u42.txt            1.0      2.0
+  u43.txt            1.0      2.0
+  u44.txt            2.0      1.0
+  u45.txt            1.0      2.0
+  u46.txt            1.0      2.0
+  u47.txt            1.0      2.0
+  u48.txt            1.0      2.0
+  u49.txt            1.0      2.0
+  u5.txt             1.0      2.0
+  u50.txt            2.0      1.0
+  u51.txt            2.0      1.0
+  u52.txt            1.0      2.0
+  u53.txt            2.0      1.0
+  u54.txt            2.0      1.0
+  u55.txt            1.0      2.0
+  u56.txt            2.0      1.0
+  u57.txt            2.0      1.0
+  u58.txt            2.0      1.0
+  u59.txt            2.0      1.0
+  u6.txt             1.0      2.0
+  u60.txt            1.0      2.0
+  u61.txt            2.0      1.0
+  u62.txt            2.0      1.0
+  u63.txt            2.0      1.0
+  u64.txt            2.0      1.0
+  u65.txt            1.0      2.0
+  u66.txt            2.0      1.0
+  u67.txt            1.0      2.0
+  u68.txt            2.0      1.0
+  u69.txt            2.0      1.0
+  u70.txt            2.0      1.0
+  u71.txt            2.0      1.0
+  u72.txt            2.0      1.0
+  u73.txt            2.0      1.0
+  u74.txt            2.0      1.0
+  u75.txt            2.0      1.0
+  u76.txt            1.0      2.0
+  u77.txt            2.0      1.0
+  u78.txt            2.0      1.0
+  u79.txt            1.0      2.0
+  u8.txt             1.0      2.0
+  u80.txt            2.0      1.0
+  u81.txt            2.0      1.0
+  u82.txt            2.0      1.0
+  u83.txt            1.0      2.0
+  u84.txt            2.0      1.0
+  u85.txt            2.0      1.0
+  u86.txt            1.0      2.0
+  u87.txt            2.0      1.0
+  u88.txt            2.0      1.0
+  u89.txt            1.0      2.0
+  u9.txt             1.0      2.0
+  u90.txt            1.0      2.0
+  u91.txt            1.0      2.0
+  u92.txt            2.0      1.0
+  u93.txt            2.0      1.0
+  u94.txt            1.0      2.0
+  u95.txt            2.0      1.0
+  u96.txt            1.0      2.0
+  u97.txt            2.0      1.0
+  u98.txt            2.0      1.0
+  u99.txt            1.0      2.0
+  [total]          393.0    339.0
+
+Segment
+  mean                 1        1
+  std. dev.       0.0017   0.0017
+  weight sum         149       95
+  precision         0.01     0.01
+
+WC
+  mean          597.0539 595.6555
+  std. dev.     818.1909  587.508
+  weight sum         149       95
+  precision      24.2864  24.2864
+
+Analytic
+  mean           67.5993   67.834
+  std. dev.      21.2825   19.815
+  weight sum         149       95
+  precision       0.4398   0.4398
+
+Clout
+  mean           51.1977  50.8251
+  std. dev.      19.3746  19.4868
+  weight sum         149       95
+  precision       0.4712   0.4712
+
+Authentic
+  mean           52.7654  59.2492
+  std. dev.      29.7056  26.9505
+  weight sum         149       95
+  precision       0.4689   0.4689
+
+Tone
+  mean           59.9657  62.7485
+  std. dev.      31.3772    31.82
+  weight sum         149       95
+  precision       0.5632   0.5632
+
+WPS
+  mean           10.7627  11.6626
+  std. dev.       5.8291   9.1286
+  weight sum         149       95
+  precision       0.4208   0.4208
+
+Sixltr
+  mean           16.3462  15.9235
+  std. dev.       5.6767   4.9398
+  weight sum         149       95
+  precision       0.2018   0.2018
+
+Dic
+  mean           81.1276  81.4975
+  std. dev.      12.3057   9.7825
+  weight sum         149       95
+  precision       0.3428   0.3428
+
+function
+  mean           44.7326  44.6235
+  std. dev.      10.7634   9.6345
+  weight sum         149       95
+  precision       0.3072   0.3072
+
+pronoun
+  mean           10.7829  11.7268
+  std. dev.        4.785   4.8839
+  weight sum         149       95
+  precision         0.15     0.15
+
+ppron
+  mean            6.5632    7.766
+  std. dev.       3.5527   3.7598
+  weight sum         149       95
+  precision       0.1077   0.1077
+
+i
+  mean            3.7728   4.6259
+  std. dev.       2.8363   3.5296
+  weight sum         149       95
+  precision       0.1075   0.1075
+
+we
+  mean            0.4106   0.4475
+  std. dev.       0.6285   0.6798
+  weight sum         149       95
+  precision       0.0453   0.0453
+
+you
+  mean            1.3192   1.4209
+  std. dev.       1.4773   1.5412
+  weight sum         149       95
+  precision       0.0794   0.0794
+
+shehe
+  mean            0.8065    0.847
+  std. dev.       1.0798   1.0009
+  weight sum         149       95
+  precision        0.044    0.044
+
+they
+  mean            0.2542   0.4167
+  std. dev.       0.3865   0.8136
+  weight sum         149       95
+  precision       0.0744   0.0744
+
+ipron
+  mean            4.2151   3.9566
+  std. dev.       2.5724   2.1126
+  weight sum         149       95
+  precision       0.0887   0.0887
+
+article
+  mean            5.7516    5.435
+  std. dev.        2.613   2.2368
+  weight sum         149       95
+  precision       0.0896   0.0896
+
+prep
+  mean           11.9195  12.1005
+  std. dev.       4.2803   3.9036
+  weight sum         149       95
+  precision       0.1701   0.1701
+
+auxverb
+  mean            8.2785   8.0342
+  std. dev.       4.2143   3.5777
+  weight sum         149       95
+  precision       0.1218   0.1218
+
+adverb
+  mean            5.1875   4.8765
+  std. dev.       3.4604   2.2193
+  weight sum         149       95
+  precision       0.1763   0.1763
+
+conj
+  mean             4.418    4.288
+  std. dev.       2.4087   2.4758
+  weight sum         149       95
+  precision       0.1057   0.1057
+
+negate
+  mean            1.6041   1.5019
+  std. dev.       1.3281   1.0933
+  weight sum         149       95
+  precision       0.0595   0.0595
+
+verb
+  mean           16.0804  16.6698
+  std. dev.       5.5647   5.0944
+  weight sum         149       95
+  precision       0.1993   0.1993
+
+adj
+  mean            5.3538   4.8902
+  std. dev.       8.2102   3.0897
+  weight sum         149       95
+  precision       0.5714   0.5714
+
+compare
+  mean            1.5112    1.826
+  std. dev.       1.2362   2.6381
+  weight sum         149       95
+  precision       0.1701   0.1701
+
+interrog
+  mean            1.2367   0.9929
+  std. dev.       1.2709    0.754
+  weight sum         149       95
+  precision       0.0609   0.0609
+
+number
+  mean            2.1366   2.4713
+  std. dev.       2.1453   2.2142
+  weight sum         149       95
+  precision       0.0927   0.0927
+
+quant
+  mean            1.7327   2.0021
+  std. dev.       1.4925   2.5836
+  weight sum         149       95
+  precision       0.1634   0.1634
+
+affect
+  mean            7.4363   7.1423
+  std. dev.       4.1747   2.9417
+  weight sum         149       95
+  precision       0.1727   0.1727
+
+posemo
+  mean            5.0143   4.7089
+  std. dev.       3.8753   2.4241
+  weight sum         149       95
+  precision       0.1802   0.1802
+
+negemo
+  mean            2.3494    2.391
+  std. dev.          1.9   1.6985
+  weight sum         149       95
+  precision       0.0857   0.0857
+
+anx
+  mean            0.2422   0.1726
+  std. dev.        0.661   0.2558
+  weight sum         149       95
+  precision       0.1131   0.1131
+
+anger
+  mean            0.7621   0.7795
+  std. dev.       0.9585   1.1558
+  weight sum         149       95
+  precision       0.0826   0.0826
+
+sad
+  mean            0.5115   0.5593
+  std. dev.       0.7052   1.0974
+  weight sum         149       95
+  precision       0.0752   0.0752
+
+social
+  mean            6.8832   7.2614
+  std. dev.        3.845   3.2745
+  weight sum         149       95
+  precision       0.1122   0.1122
+
+family
+  mean            0.4237    0.432
+  std. dev.       1.0085   0.9068
+  weight sum         149       95
+  precision       0.1307   0.1307
+
+friend
+  mean            0.3926   0.3685
+  std. dev.       0.6327   0.8043
+  weight sum         149       95
+  precision        0.086    0.086
+
+female
+  mean            0.5972   0.7842
+  std. dev.       1.0249   1.1286
+  weight sum         149       95
+  precision       0.0674   0.0674
+
+male
+  mean            0.6758   0.6272
+  std. dev.       0.8599   0.9293
+  weight sum         149       95
+  precision       0.0479   0.0479
+
+cogproc
+  mean            9.7295   8.9311
+  std. dev.       4.9143   3.7399
+  weight sum         149       95
+  precision       0.1618   0.1618
+
+insight
+  mean            1.7476   1.6395
+  std. dev.       1.4566   1.4539
+  weight sum         149       95
+  precision       0.0599   0.0599
+
+cause
+  mean            1.1253   1.0872
+  std. dev.       1.0838    0.934
+  weight sum         149       95
+  precision       0.0543   0.0543
+
+discrep
+  mean            1.6547   1.6179
+  std. dev.       1.4699   1.3978
+  weight sum         149       95
+  precision       0.0578   0.0578
+
+tentat
+  mean            2.3036     2.14
+  std. dev.       1.6759   1.7472
+  weight sum         149       95
+  precision       0.0899   0.0899
+
+certain
+  mean            1.5942   1.4067
+  std. dev.       1.6644   1.0993
+  weight sum         149       95
+  precision       0.0782   0.0782
+
+differ
+  mean            2.5188   2.2621
+  std. dev.       2.2202    1.949
+  weight sum         149       95
+  precision       0.1332   0.1332
+
+percept
+  mean            3.9321   2.4023
+  std. dev.      11.3556   1.5332
+  weight sum         149       95
+  precision       0.6135   0.6135
+
+see
+  mean            2.4256   1.0443
+  std. dev.      11.4359   0.9171
+  weight sum         149       95
+  precision       0.7874   0.7874
+
+hear
+  mean            0.5647   0.5934
+  std. dev.       0.7415   0.9059
+  weight sum         149       95
+  precision       0.0747   0.0747
+
+feel
+  mean            0.6543   0.5992
+  std. dev.        1.098   0.6184
+  weight sum         149       95
+  precision       0.0771   0.0771
+
+bio
+  mean            2.8079   3.2245
+  std. dev.       2.0168   2.9147
+  weight sum         149       95
+  precision       0.1471   0.1471
+
+body
+  mean            0.8475   1.2467
+  std. dev.       0.8962   2.7687
+  weight sum         149       95
+  precision       0.2119   0.2119
+
+health
+  mean            0.7691   0.9258
+  std. dev.       0.9065   0.9181
+  weight sum         149       95
+  precision       0.0431   0.0431
+
+sexual
+  mean              0.14   0.1173
+  std. dev.       0.3001   0.2631
+  weight sum         149       95
+  precision       0.0378   0.0378
+
+ingest
+  mean            0.9155   0.8135
+  std. dev.       1.4774   0.9198
+  weight sum         149       95
+  precision       0.0966   0.0966
+
+drives
+  mean            6.3881   7.1328
+  std. dev.       3.2551   3.2703
+  weight sum         149       95
+  precision       0.1309   0.1309
+
+affiliation
+  mean             1.882   2.0587
+  std. dev.       1.6318   1.5711
+  weight sum         149       95
+  precision       0.0721   0.0721
+
+achieve
+  mean            1.4498   1.4692
+  std. dev.        1.273   1.6313
+  weight sum         149       95
+  precision       0.0979   0.0979
+
+power
+  mean            1.8384   1.7736
+  std. dev.       1.4697   1.2548
+  weight sum         149       95
+  precision       0.0766   0.0766
+
+reward
+  mean            1.6411   2.0944
+  std. dev.       1.3107   2.7843
+  weight sum         149       95
+  precision       0.1712   0.1712
+
+risk
+  mean            0.3439    0.389
+  std. dev.       0.4508   0.5396
+  weight sum         149       95
+  precision       0.0374   0.0374
+
+focuspast
+  mean            2.5321   2.7918
+  std. dev.       1.9273   2.0173
+  weight sum         149       95
+  precision       0.0913   0.0913
+
+focuspresent
+  mean            11.687  12.1635
+  std. dev.       4.1733   4.0845
+  weight sum         149       95
+  precision       0.1414   0.1414
+
+focusfuture
+  mean            2.1734   1.9364
+  std. dev.        1.734     1.38
+  weight sum         149       95
+  precision       0.0649   0.0649
+
+relativ
+  mean           15.9198  17.0478
+  std. dev.       6.9612   5.2583
+  weight sum         149       95
+  precision        0.319    0.319
+
+motion
+  mean            2.1551   2.2307
+  std. dev.       1.7623   1.7492
+  weight sum         149       95
+  precision       0.1042   0.1042
+
+space
+  mean            6.8008   6.9701
+  std. dev.       5.7599   2.5911
+  weight sum         149       95
+  precision       0.3491   0.3491
+
+time
+  mean            7.5976    8.178
+  std. dev.       4.2431   3.6151
+  weight sum         149       95
+  precision       0.1692   0.1692
+
+work
+  mean            2.2378   2.3464
+  std. dev.       1.9683   2.3584
+  weight sum         149       95
+  precision       0.0882   0.0882
+
+leisure
+  mean            2.1292   2.1333
+  std. dev.       2.0598   1.5978
+  weight sum         149       95
+  precision       0.1048   0.1048
+
+home
+  mean             0.717   0.6668
+  std. dev.       1.6076   0.7204
+  weight sum         149       95
+  precision       0.1515   0.1515
+
+money
+  mean            0.4875    0.502
+  std. dev.       0.6676   0.5933
+  weight sum         149       95
+  precision       0.0393   0.0393
+
+relig
+  mean            0.6468   0.4363
+  std. dev.       2.0754   0.5716
+  weight sum         149       95
+  precision       0.2497   0.2497
+
+death
+  mean            0.1696   0.1514
+  std. dev.       0.3085   0.2054
+  weight sum         149       95
+  precision       0.0433   0.0433
+
+informal
+  mean            2.9499   3.2194
+  std. dev.       3.8192   2.8336
+  weight sum         149       95
+  precision       0.1894   0.1894
+
+swear
+  mean             0.489   0.5833
+  std. dev.       0.9948   1.1654
+  weight sum         149       95
+  precision       0.0877   0.0877
+
+netspeak
+  mean            1.7866   1.9342
+  std. dev.       3.2605   2.5275
+  weight sum         149       95
+  precision       0.2193   0.2193
+
+assent
+  mean            0.3834   0.4859
+  std. dev.       0.8627   0.8039
+  weight sum         149       95
+  precision        0.098    0.098
+
+nonflu
+  mean            0.3843   0.2849
+  std. dev.       0.6184    0.367
+  weight sum         149       95
+  precision       0.0539   0.0539
+
+filler
+  mean            0.0297   0.0634
+  std. dev.       0.1084   0.1629
+  weight sum         149       95
+  precision       0.0326   0.0326
+
+AllPunc
+  mean           34.4577  32.1741
+  std. dev.      29.7347  11.6736
+  weight sum         149       95
+  precision       1.3318   1.3318
+
+Period
+  mean           11.7709  12.3096
+  std. dev.       8.3821   7.7526
+  weight sum         149       95
+  precision        0.252    0.252
+
+Comma
+  mean            2.9707   2.6937
+  std. dev.       2.2766   1.9264
+  weight sum         149       95
+  precision       0.0623   0.0623
+
+Colon
+  mean             0.713    0.955
+  std. dev.       1.2938   1.2664
+  weight sum         149       95
+  precision       0.0675   0.0675
+
+SemiC
+  mean            0.1078   0.0505
+  std. dev.       0.4005   0.1058
+  weight sum         149       95
+  precision       0.1115   0.1115
+
+QMark
+  mean            1.3539   1.1237
+  std. dev.       2.3717   1.9635
+  weight sum         149       95
+  precision       0.1338   0.1338
+
+Exclam
+  mean            9.2471   6.3833
+  std. dev.      27.1437   7.2945
+  weight sum         149       95
+  precision       1.4103   1.4103
+
+Dash
+  mean            0.9648   1.3649
+  std. dev.       1.6198   1.9654
+  weight sum         149       95
+  precision       0.0909   0.0909
+
+Quote
+  mean            0.9544   0.6868
+  std. dev.       1.4594   1.0308
+  weight sum         149       95
+  precision       0.0837   0.0837
+
+Apostro
+  mean            2.1071   2.3363
+  std. dev.       1.9927   1.6438
+  weight sum         149       95
+  precision       0.1069   0.1069
+
+Parenth
+  mean            0.6355   0.8015
+  std. dev.       0.9699   1.7946
+  weight sum         149       95
+  precision       0.1508   0.1508
+
+OtherP
+  mean            3.6777   3.5428
+  std. dev.        4.417   3.4891
+  weight sum         149       95
+  precision       0.1729   0.1729
+
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         111               45.4918 %
+Incorrectly Classified Instances       133               54.5082 %
+Kappa statistic                          0.0201
+Mean absolute error                      0.544 
+Root mean squared error                  0.7236
+Relative absolute error                114.3308 %
+Root relative squared error            148.3777 %
+Total Number of Instances              244     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.255    0.232    0.633      0.255    0.364      0.027    0.513     0.642     n
+                 0.768    0.745    0.397      0.768    0.523      0.027    0.513     0.401     y
+Weighted Avg.    0.455    0.431    0.541      0.455    0.426      0.027    0.513     0.548     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  38 111 |   a = n
+  22  73 |   b = y

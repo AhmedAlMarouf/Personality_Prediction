@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     ExtraversionFinder_24 features
+Instances:    244
+Attributes:   26
+              Filename
+              affect
+              posemo
+              negemo
+              anx
+              anger
+              sad
+              social
+              family
+              friend
+              female
+              male
+              cogproc
+              insight
+              cause
+              discrep
+              tentat
+              certain
+              differ
+              work
+              leisure
+              home
+              money
+              relig
+              death
+              cEXT
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class n :
+0    + 
+
+Class y :
+0    + 
+
+
+Time taken to build model: 0.58 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         149               61.0656 %
+Incorrectly Classified Instances        95               38.9344 %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                105.0917 %
+Root relative squared error            102.5316 %
+Total Number of Instances              244     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.611      1.000    0.758      ?        0.500     0.611     n
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.389     y
+Weighted Avg.    0.611    0.611    ?          0.611    ?          ?        0.500     0.524     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 149   0 |   a = n
+  95   0 |   b = y

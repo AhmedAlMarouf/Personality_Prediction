@@ -1,0 +1,123 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     LIWC + SN features
+Instances:    244
+Attributes:   101
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 101 cEXT):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.313108    94 NETWORKSIZE
+ 0.267444   100 TRANSITIVITY
+ 0.254608    98 BROKERAGE
+ 0.253723    95 BETWEENNESS
+ 0.231286    97 DENSITY
+ 0.224687    99 NBROKERAGE
+ 0.218376    96 NBETWEENNESS
+ 0.158765    11 ppron
+ 0.132929    16 they
+ 0.132758    12 i
+ 0.122745    81 filler
+ 0.110415    57 drives
+ 0.109987     4 Authentic
+ 0.109973    89 Dash
+ 0.108177    27 interrog
+ 0.107799    61 reward
+ 0.102995    53 body
+ 0.099894    90 Quote
+ 0.094787    10 pronoun
+ 0.092226    85 Colon
+ 0.091237    80 nonflu
+ 0.090714    86 SemiC
+ 0.086429    41 cogproc
+ 0.085789    39 female
+ 0.085224    66 relativ
+ 0.083817    52 bio
+ 0.08335     54 health
+ 0.082817    48 percept
+ 0.081248    26 compare
+ 0.075469    49 see
+ 0.075336    28 number
+ 0.071822    65 focusfuture
+ 0.069295    69 time
+ 0.065669    33 anx
+ 0.065518    29 quant
+ 0.064288    63 focuspast
+ 0.063391    84 Comma
+ 0.063267    88 Exclam
+ 0.062219    18 article
+ 0.062036    74 relig
+ 0.061814    91 Apostro
+ 0.061691    46 certain
+ 0.059683    92 Parenth
+ 0.058634    79 assent
+ 0.058333    47 differ
+ 0.057848     6 WPS
+ 0.055658    64 focuspresent
+ 0.054766    24 verb
+ 0.05301     17 ipron
+ 0.05274     58 affiliation
+ 0.050845    36 social
+ 0.050803    87 QMark
+ 0.04888     21 adverb
+ 0.046297    45 tentat
+ 0.044995    62 risk
+ 0.044719    31 posemo
+ 0.044421    82 AllPunc
+ 0.042816     5 Tone
+ 0.042409    77 swear
+ 0.040305    23 negate
+ 0.039877    56 ingest
+ 0.039528    30 affect
+ 0.039293    55 sexual
+ 0.038518     7 Sixltr
+ 0.037562    76 informal
+ 0.036271    75 death
+ 0.035898    42 insight
+ 0.033078    14 you
+ 0.0324      25 adj
+ 0.031931    83 Period
+ 0.029707    20 auxverb
+ 0.028219    13 we
+ 0.027352    51 feel
+ 0.026461    35 sad
+ 0.026286    40 male
+ 0.02551     70 work
+ 0.025326    78 netspeak
+ 0.025271    22 conj
+ 0.0228      60 power
+ 0.021563    67 motion
+ 0.020352    19 prep
+ 0.019052    72 home
+ 0.018556    43 cause
+ 0.018529    50 hear
+ 0.018158    15 shehe
+ 0.017197    38 friend
+ 0.016771     8 Dic
+ 0.016595    68 space
+ 0.01659     93 OtherP
+ 0.011877    44 discrep
+ 0.011214    73 money
+ 0.011074    32 negemo
+ 0.009714     3 Clout
+ 0.008871    59 achieve
+ 0.007319    34 anger
+ 0.00534      9 function
+ 0.005339     2 Analytic
+ 0.003839    37 family
+ 0.001393    71 leisure
+ 0.000936     1 WC
+
+Selected attributes: 94,100,98,95,97,99,96,11,16,12,81,57,4,89,27,61,53,90,10,85,80,86,41,39,66,52,54,48,26,49,28,65,69,33,29,63,84,88,18,74,91,46,92,79,47,6,64,24,17,58,36,87,21,45,62,31,82,5,77,23,56,30,55,7,76,75,42,14,25,83,20,13,51,35,40,70,78,22,60,67,19,72,43,50,15,38,8,68,93,44,73,32,3,59,34,9,2,37,71,1 : 100
+

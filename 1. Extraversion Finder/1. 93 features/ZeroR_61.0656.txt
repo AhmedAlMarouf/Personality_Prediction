@@ -1,0 +1,135 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR 
+Relation:     ExtraversionFinder
+Instances:    244
+Attributes:   96
+              Filename
+              Segment
+              WC
+              Analytic
+              Clout
+              Authentic
+              Tone
+              WPS
+              Sixltr
+              Dic
+              function
+              pronoun
+              ppron
+              i
+              we
+              you
+              shehe
+              they
+              ipron
+              article
+              prep
+              auxverb
+              adverb
+              conj
+              negate
+              verb
+              adj
+              compare
+              interrog
+              number
+              quant
+              affect
+              posemo
+              negemo
+              anx
+              anger
+              sad
+              social
+              family
+              friend
+              female
+              male
+              cogproc
+              insight
+              cause
+              discrep
+              tentat
+              certain
+              differ
+              percept
+              see
+              hear
+              feel
+              bio
+              body
+              health
+              sexual
+              ingest
+              drives
+              affiliation
+              achieve
+              power
+              reward
+              risk
+              focuspast
+              focuspresent
+              focusfuture
+              relativ
+              motion
+              space
+              time
+              work
+              leisure
+              home
+              money
+              relig
+              death
+              informal
+              swear
+              netspeak
+              assent
+              nonflu
+              filler
+              AllPunc
+              Period
+              Comma
+              Colon
+              SemiC
+              QMark
+              Exclam
+              Dash
+              Quote
+              Apostro
+              Parenth
+              OtherP
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: n
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         149               61.0656 %
+Incorrectly Classified Instances        95               38.9344 %
+Kappa statistic                          0     
+Mean absolute error                      0.4758
+Root mean squared error                  0.4877
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances              244     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.611      1.000    0.758      ?        0.484     0.602     n
+                 0.000    0.000    ?          0.000    ?          ?        0.484     0.381     y
+Weighted Avg.    0.611    0.611    ?          0.611    ?          ?        0.484     0.516     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 149   0 |   a = n
+  95   0 |   b = y
+
