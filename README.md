@@ -1,7 +1,7 @@
 # Personality_Prediction
 This is my Masters projects. We predicted the personality traits of the social media users using their textual data. From the data we extracted linguistic and psycholiguistic features, blending them with social network features.
 
-Publication Link: Ahmed Al Marouf, Md. Kamrul Hasan, Hasan Mahmud, "Comparative Analysis of Feature Selection Algorithms for Computational Personality Prediction from Social Media", IEEE Transactions of Computational Social Systems. Vol. 7, issue. 3, pp. 587-599, June 2020, doi: [10.119/TCSS.2020.2966910](10.119/TCSS.2020.2966910) (Scopus Indexed)
+Publication Link: Ahmed Al Marouf, Md. Kamrul Hasan, Hasan Mahmud, "Comparative Analysis of Feature Selection Algorithms for Computational Personality Prediction from Social Media", IEEE Transactions of Computational Social Systems. Vol. 7, issue. 3, pp. 587-599, June 2020, doi: [10.119/TCSS.2020.2966910]([10.119/TCSS.2020.2966910](https://ieeexplore.ieee.org/document/9003524)) (Scopus Indexed)
 
 
 Terms Of Use of the Dataset
