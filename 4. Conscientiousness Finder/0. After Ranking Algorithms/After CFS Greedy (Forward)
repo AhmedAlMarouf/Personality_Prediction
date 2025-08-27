@@ -1,0 +1,27 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1
+Relation:     3. ConscientiousnessFinder_LIWC + SN features
+Instances:    244
+Attributes:   101
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Greedy Stepwise (forwards).
+	Start set: no attributes
+	Merit of best subset found:    0.096
+
+Attribute Subset Evaluator (supervised, Class (nominal): 101 cCON):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 38,48 : 2
+                     friend
+                     percept
+
