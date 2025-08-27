@@ -1,0 +1,123 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     3. OpennessFinder_LIWC + SN features
+Instances:    244
+Attributes:   101
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 101 cOPN):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.147048    76 informal
+ 0.129939    51 feel
+ 0.129442    30 affect
+ 0.127859    22 conj
+ 0.116486    81 filler
+ 0.115663    63 focuspast
+ 0.113335    77 swear
+ 0.106097    82 AllPunc
+ 0.1031      83 Period
+ 0.092211    78 netspeak
+ 0.091725    65 focusfuture
+ 0.090832    87 QMark
+ 0.090708    13 we
+ 0.090059    31 posemo
+ 0.087664    80 nonflu
+ 0.087505    34 anger
+ 0.086743    16 they
+ 0.085211    11 ppron
+ 0.08261     90 Quote
+ 0.082471     4 Authentic
+ 0.081731     2 Analytic
+ 0.081691    32 negemo
+ 0.081202    69 time
+ 0.080819     7 Sixltr
+ 0.080018    93 OtherP
+ 0.075555     9 function
+ 0.074687    46 certain
+ 0.074034   100 TRANSITIVITY
+ 0.073751    86 SemiC
+ 0.071337    28 number
+ 0.067632    38 friend
+ 0.06691     52 bio
+ 0.063936     8 Dic
+ 0.06119     88 Exclam
+ 0.06102     96 NBETWEENNESS
+ 0.060939    66 relativ
+ 0.059886    27 interrog
+ 0.059831    49 see
+ 0.052824    29 quant
+ 0.049878    75 death
+ 0.049461    44 discrep
+ 0.049145    59 achieve
+ 0.048828    56 ingest
+ 0.048298    79 assent
+ 0.047852    92 Parenth
+ 0.047834    35 sad
+ 0.047597    48 percept
+ 0.047479    12 i
+ 0.046157    95 BETWEENNESS
+ 0.045827    17 ipron
+ 0.045591    98 BROKERAGE
+ 0.045348    25 adj
+ 0.043716    70 work
+ 0.043009     6 WPS
+ 0.042852    97 DENSITY
+ 0.042493    21 adverb
+ 0.042256    20 auxverb
+ 0.042219    55 sexual
+ 0.041897    10 pronoun
+ 0.041315    73 money
+ 0.039846    67 motion
+ 0.038864    47 differ
+ 0.038359    50 hear
+ 0.036835    40 male
+ 0.034839    84 Comma
+ 0.032189    53 body
+ 0.029763    57 drives
+ 0.028928    72 home
+ 0.025741    60 power
+ 0.022825    61 reward
+ 0.022613    15 shehe
+ 0.022596    85 Colon
+ 0.022416    19 prep
+ 0.020982    74 relig
+ 0.020238    94 NETWORKSIZE
+ 0.020157    14 you
+ 0.019445    68 space
+ 0.01883     36 social
+ 0.018027     1 WC
+ 0.016807    54 health
+ 0.016094    18 article
+ 0.01478     33 anx
+ 0.012461    45 tentat
+ 0.012338    71 leisure
+ 0.011143    58 affiliation
+ 0.010357    23 negate
+ 0.008638    26 compare
+ 0.00799     24 verb
+ 0.007897     5 Tone
+ 0.00703     99 NBROKERAGE
+ 0.006497    64 focuspresent
+ 0.00565     41 cogproc
+ 0.0053      42 insight
+ 0.003267     3 Clout
+ 0.003193    39 female
+ 0.002548    37 family
+ 0.000912    43 cause
+ 0.000381    62 risk
+ 0.000379    89 Dash
+ 0.000341    91 Apostro
+
+Selected attributes: 76,51,30,22,81,63,77,82,83,78,65,87,13,31,80,34,16,11,90,4,2,32,69,7,93,9,46,100,86,28,38,52,8,88,96,66,27,49,29,75,44,59,56,79,92,35,48,12,95,17,98,25,70,6,97,21,20,55,10,73,67,47,50,40,84,53,57,72,60,61,15,85,19,74,94,14,68,36,1,54,18,33,45,71,58,23,26,24,5,99,64,41,42,3,39,37,43,62,89,91 : 100
+
